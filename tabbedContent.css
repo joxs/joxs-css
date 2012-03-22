@@ -1,0 +1,67 @@
+.tabbed_content {
+	background-color: #fff;
+	width: 940px;	
+}
+
+.tabs {
+	height: 60px;
+	position: relative;
+}
+
+.tabs .moving_bg {
+	padding: 15px;
+	background-color:#2b2b2b;
+	background-image:url(../images/arrow_down_green.png);
+	position: absolute;
+	width: 125px;
+	z-index: 190;
+	left: 0;
+	padding-bottom: 29px;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.tabs .tab_item {
+	display: block;
+	float: left;
+	padding: 15px;
+	width: 125px;
+	color: #cccccc;
+	text-align: center;
+	z-index: 200;
+	position: relative;
+	cursor: pointer;
+}
+
+.tabbed_content .slide_content {
+	overflow: hidden;
+	background-color: #fff;
+	padding: 20px 0 20px 0px;
+	position: relative;
+	width: 940px;
+}
+
+.tabslider {
+	width: 5000px;
+}
+
+.tabslider ul {
+	float: left;
+	width: 900px;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 40px;
+}
+
+.tabslider ul a {
+	color:#000000
+	text-decoration: none;
+}
+
+.tabslider ul a:hover {
+	color: #aaaaaa;
+}
+
+.tabslider ul li {
+	padding-bottom: 7px;
+}
